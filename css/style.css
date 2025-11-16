@@ -3,10 +3,53 @@
     background-color: blanchedalmond;
 }
 
-#logo{
-    color: blueviolet;
+#global-menu{
+    ul{
+        li{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+    }
 }
 
+#logo{
+    color: blueviolet;
+    border: 2px solid #fff;
+    background-color: aquamarine;
+    width: 50px;
+    height: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#box{
+    background-color: blue;
+    color: #fff;
+    border: 5px solid blue;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    margin: 50px;
+}
+
+#navn{
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+#melding{
+
+}
 
 /***
 #global-menu{
