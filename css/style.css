@@ -50,6 +50,21 @@
 #melding{
 
 }
+@media screen and (max-width: 700px) {
+    *{
+        background-color: #fff;
+    }
+
+    .header {grid-area: 1 / span 6;}
+    .body {grid-area: 2 / span 1;}
+    .article {grid-area: 2 / span 4;}
+    .tabel {grid-area: 2 / span 1;}
+    .form {grid-area: 3 / span 6;}
+}
+
+footer{
+
+}
 
 /***
 #global-menu{
